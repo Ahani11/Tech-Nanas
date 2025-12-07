@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile picture"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Default avatars row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="24dp">
+
+        <ImageView
+            android:id="@+id/ivAvatarOption1"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/user"
+            android:background="#DDDDDD"
+            android:padding="4dp"
+            android:layout_marginEnd="16dp" />
+
+        <ImageView
+            android:id="@+id/ivAvatarOption2"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/user2"
+            android:background="#DDDDDD"
+            android:padding="4dp"
+            android:layout_marginEnd="16dp" />
+
+        <ImageView
+            android:id="@+id/ivAvatarOption3"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/people"
+            android:background="#DDDDDD"
+            android:padding="4dp" />
+    </LinearLayout>
+
+    <!-- From gallery -->
+    <TextView
+        android:id="@+id/tvChooseGallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose from gallery"
+        android:textSize="16sp"
+        android:paddingVertical="8dp" />
+
+    <!-- Take photo -->
+    <TextView
+        android:id="@+id/tvTakePhoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Take a photo"
+        android:textSize="16sp"
+        android:paddingVertical="8dp" />
+
+</LinearLayout>

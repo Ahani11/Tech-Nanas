@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "682271040118",
+    "project_id": "tech-nanas",
+    "storage_bucket": "tech-nanas.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:682271040118:android:14e5a183526c0177653557",
+        "android_client_info": {
+          "package_name": "com.example.technanas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDRZCHKOBxUdaYRmNj-p7zHzIK9EKjOrw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

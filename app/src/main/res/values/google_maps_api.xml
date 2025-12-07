@@ -1,0 +1,6 @@
+<resources>
+    <!-- Google Maps Android API key -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        YOUR_MAPS_KEY_HERE
+    </string>
+</resources>
